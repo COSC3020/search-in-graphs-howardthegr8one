@@ -25,3 +25,18 @@ answer, including your reasoning, to this markdown file.
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+## Runtime analysis of my implementation
+
+The first for loop of my implementation iterates through the number of nodes in the given graph
+which takes V (# of vertices) runtime. The next for loop also iterates through the nodes of the
+graph but calls a recursive function to iterate through the connected nodes of the current node. 
+
+Thus the runtime is $Vertices + # Edges for each V$ or $\Theta(V + E)$
+
+
+
+
+
+
+
