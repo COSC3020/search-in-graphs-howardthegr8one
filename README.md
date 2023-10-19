@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12473498&assignment_repo_type=AssignmentRepo)
 # Search in Graphs
 
 Recall the pseudocode for Depth-First Search:
@@ -24,3 +25,18 @@ answer, including your reasoning, to this markdown file.
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+## Runtime analysis of my implementation
+
+The first for loop of my implementation iterates through the number of nodes in the given graph
+which takes V (# of vertices) runtime. The next for loop also iterates through the nodes of the
+graph but calls a recursive function to iterate through the connected nodes of the current node. 
+
+Thus the runtime is Vertices + # Edges for each V or $\Theta(V + E)$
+
+
+
+
+
+
+
