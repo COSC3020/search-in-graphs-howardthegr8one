@@ -32,7 +32,7 @@ The first for loop of my implementation iterates through the number of nodes in 
 which takes V (# of vertices) runtime. The next for loop also iterates through the nodes of the
 graph but calls a recursive function to iterate through the connected nodes of the current node. 
 
-Thus the runtime is $Vertices + # Edges for each V$ or $\Theta(V + E)$
+Thus the runtime is Vertices + # Edges for each V or $\Theta(V + E)$
 
 
 
